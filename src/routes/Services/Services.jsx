@@ -16,12 +16,14 @@ export const Services = () => {
                         <h3 className='service-title'>Cea los profesionales</h3>
                         <img className='image-service' src={ cea } alt="service-image" />
                         <p className='description-service'>
-                            Este pryecto es un sitio web totalmente informativo,
-                            con varias secciones donde se muestra la informacion de la 
-                            empresa, cuenta con una seccion donde las personas pueden
+                            Este proyecto es un sitio web totalmente informativo,
+                            con varias secciones donde se muestra la información de la 
+                            empresa, cuenta con una sección donde las personas pueden
                             calificar los servicios de la misma, y el sitio puede administrar
-                            estas calificaciones o algun tipo de queja o reclamo y darle solución.
+                            estas calificaciones o algún tipo de queja o reclamo y darle solución.
                             Las tecnologias que se usaron fueron: React js, Node js, Express js, MongoDb.
+                            <br />
+                            <a href="https://cealosprofesionales.com/home" target='_blank'>Visitar proyecto</a>
                         </p>
                     </div>
                 </article>
@@ -31,12 +33,13 @@ export const Services = () => {
                         <h3 className='service-title'>Ofrece tu talento</h3>
                         <img className='image-service' src={ ott } alt="service-image" />
                         <p className='description-service'>
-                            Este pryecto es una aplicación web, que cuenta con 
+                            Este proyecto es una aplicación web, que cuenta con 
                             varias secciones, tanto como login, como chatbot,
-                            es una plataforma para encontrar empleo ya sea que estes en 
+                            es una plataforma para encontrar empleo ya sea que estés en 
                             busqueda de uno, o para encontrar trabajadores ya sea que necesites uno.
                             Las tecnologias que se usaron fueron: React js, Node js, Express js, MongoDb.
-
+                            <br />
+                            <a href="https://ofrecetutalento-web.netlify.app/" target='_blank'>Visitar proyecto</a>
                         </p>
                     </div>
                 </article>
@@ -46,11 +49,13 @@ export const Services = () => {
                         <h3 className='service-title'>Eil Colombia</h3>
                         <img className='image-service' src={ eil } alt="service-image" />
                         <p className='description-service'>
-                            Este pryecto es un sitio web totalmente informativo, cuenta con
+                            Este proyecto es un sitio web totalmente informativo, cuenta con
                             varias secciones en las cuales se encuentra la muestra de productos
-                            y sus respestivas descripciones, también cuenta con una parate totalmente
+                            y sus respestivas descripciones, también cuenta con una parte totalmente
                             administrativa donde se pueden crear, eliminar, obtener o actualizar productos.
                             Las tecnologias que se usaron fueron: React js, Node js, Express js, MongoDb.
+                            <br />
+                            <a href="https://eil-web.netlify.app/" target='_blank'>Visitar proyecto</a>
                         </p>
                     </div>
                 </article>
@@ -65,6 +70,8 @@ export const Services = () => {
                             sobre recursos humanos, utiliza la pai de OpenAi.
                             Las tecnologias que se usaron fueron: React js, Node js, Express js, MongoDb
                             y socket.io.
+                            <br />
+                            <a href="https://chatbot-for-ott.netlify.app/" target='_blank'>Visitar proyecto</a>
                         </p>
                     </div>
                 </article>

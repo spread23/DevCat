@@ -5,6 +5,7 @@ import aboutMe from '../../assets/aboutMe.jpg'
 import tec from '../../assets/tec.jpg'
 import software from '../../assets/software.jpg'
 import games from '../../assets/games.jpg'
+import mobile from '../../assets/mobile.jpg'
 
 export const About = () => {
     return (
@@ -57,6 +58,16 @@ export const About = () => {
                         totalmente autodidacta utilizando una tecnología
                         llamada PYGAME, que usa el lenguaje de programación 
                         python.
+                    </p>
+                </div>
+
+                <div className='tecs-back'>
+                    <h2 className='title-tec'>Mobile</h2>
+                    <img className='image-tec' src={ mobile } alt="image-tec" />
+                    <p className='description-tec'>
+                        Para el desarrollo de aplicaciones moviles, suelo usar 
+                        una tecnología llamada React Native, con ella podemos 
+                        usar el mismo codigo, tanto para web, como para android y ios.
                     </p>
                 </div>
             </div>
