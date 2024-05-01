@@ -20,6 +20,25 @@
     color: rgb(165, 163, 163);
 }
 
+.works {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.works-title {
+    color: white;
+}
+
+.work-wrap {
+    width: 400px;
+}
+
 @media (max-width: 780px) {
     .article {
         display: flex;

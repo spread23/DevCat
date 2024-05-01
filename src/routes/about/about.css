@@ -1,0 +1,84 @@
+.about-container {
+    width: 100%;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.info {
+    width: 400px;
+}
+
+.aboutMe {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.description-about {
+    color: white;
+}
+
+.image-tec {
+    width: 300px;
+}
+
+.tecs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.tecs-back {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.description-tec {
+    width: 300px;
+}
+
+@media (max-width: 780px) {
+    .about-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tecs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .tecs-back {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+}
