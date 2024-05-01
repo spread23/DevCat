@@ -1,0 +1,121 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.menu-items li {
+    margin: 20px;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #7B3284;
+    padding: 12px;
+}
+
+.menu-items li a:hover {
+    border: 1px solid black;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+
+.active {
+    border: 1px solid black;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+
+@media (max-width: 800px) {
+    .nav {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        text-align: left;
+    }
+
+    .menu-items {
+        position: absolute;
+        top: 40px;
+        left: -40px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        transform: translateX(-100%);
+        transition: 0.5s ease all;
+    }
+
+    .menu-items.open {
+            transform: translateX(0);
+    }
+
+    .toggle.open > span:nth-child(1) {
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+
+    .toggle.open > span:nth-child(2) {
+        display: none;
+    }
+
+    .toggle.open > span:nth-child(3) {
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
+
+
+    .toggle {
+        display: flex !important;
+        flex-direction: column;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .toggle span {
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+
+    .logo {
+        width: 180px;
+    }
+}

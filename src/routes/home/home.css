@@ -1,0 +1,31 @@
+.businnes {
+    width: 400px;
+    margin: 12px;
+}
+
+.description-article {
+    padding: 20px;
+}
+
+.article {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitle {
+    color: rgb(165, 163, 163);
+}
+
+@media (max-width: 780px) {
+    .article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
