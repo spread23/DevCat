@@ -1,6 +1,5 @@
 .service-container {
     width: 100%;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,6 +40,7 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
 .description-service {
@@ -63,6 +63,6 @@
     }
 
     .description-service {
-        width: 400px;
+        width: 300px;
     }
 }
